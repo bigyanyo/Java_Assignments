@@ -2,7 +2,7 @@
 
 # Closable Frame
 
-- A Frame does not have a close function in itslef. We have to write some codes to make the frame window close.
+- A Frame does not have a close function in itself. We have to write some codes to make the frame window close.
 
 - We can close the AWT window or Frame by calling dispose() or System.exit() inside windowClosing() method. The windowClosing() method is found in WindowListener interface and WindowAdapter class.
 
